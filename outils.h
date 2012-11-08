@@ -8,7 +8,7 @@
 #include <assert.h>
 #include <ctype.h>
 
-void outil_amorcer ();
+void outil_amorcer();
 void outil_init();
 void cmatBords (char c, int lmin, int cmin, int lmax, int cmax, char mat[lmax][cmax]);
 void Alea0();
@@ -28,6 +28,5 @@ int cEcrire ();
 int eHasard (int tmin, int tmax);
 int zHasard (int eLimite);
 int uHasard (int eMax);
-void murInit (int nbmur, int lmin, int lmax, int cmin, int cmax, char mat[lmax][cmax]);
 
 #endif
